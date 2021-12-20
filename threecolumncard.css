@@ -12,8 +12,6 @@
 }
 
 body {
-    font-size: 1.3125rem;
-    line-height: 1.4;
     margin: 0;
 }
 
@@ -43,6 +41,8 @@ img {
     background-color: hsl(31, 77%, 52%); 
     color: hsla(0, 0%, 95%, 1);
     padding: 3em 3em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 /* Sedans Styles End */
 
@@ -59,6 +59,8 @@ img {
     background-color:hsl(179, 100%, 13%);
     color: hsla(0, 0%, 95%, 1);
     padding: 3em 3em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 /* Luxury Styles End */
 
@@ -96,6 +98,7 @@ img {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
     font-size: 15px;
+    line-height: 25px;
 }
 
 .bigshoulders-700 {
@@ -118,8 +121,20 @@ img {
 /* Frontend Mentor Starter Styles End */
 
 /* Media Queries */
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
     .grid-container {
         grid-auto-flow: column;
     }
+
+    .sedans__container {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
+    .luxury__container {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 0;
+
+}
+
 }
