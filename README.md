@@ -1,1 +1,1 @@
-# three_column_preview_card
+# 3 Column Preview Card
