@@ -1,3 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+- Mobile: 375px
+- Desktop: 1440px
+
+
+/* Primary Color Styles */
+
+.bright-orange {
+    color: hsl(31, 77%, 52%);
+}
+
+.dark-cyan {
+    color:hsl(184, 100%, 22%);
+}
+
+.very-dark-cyan {;
+    color: hsl(179, 100%, 13%);
+}
+
+/* Primary Color Styles End */
+
+/* Neutral Color Styles */
+
+.transparent-white {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.very-light-gray {
+    color: hsl(0, 0%, 95%);
+}
+
+/* Neutral Color Styles End */
+
+/* Font Styles */
+
+.lexenddeca-400-15px {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.bigshoulders-700 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+
+/* Font Styles End */
+
+/* Frontend Mentor Starter Styles */
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
@@ -5,3 +58,4 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+/* Frontend Mentor Starter Styles End */
