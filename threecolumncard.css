@@ -33,23 +33,34 @@ img {
     grid-auto-columns: 1fr;
 }
 
+.tt__uppercase {
+    text-transform: uppercase;
+}
+
 
 /* Sedans Styles */
 .sedans__container {
     background-color: hsl(31, 77%, 52%); 
-    color: hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 95%, 1);
+    padding: 3em 3em;
 }
+/* Sedans Styles End */
 
+/* SUVS Styles */
 .suvs__container {
     background-color: hsl(184, 100%, 22%);
-    color: hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 95%, 1);
+    padding: 3em 3em;
 }
+/* SUVS Styles End */
 
+/* Luxury Styles */
 .luxury__container {
     background-color:hsl(179, 100%, 13%);
-    color: hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 95%, 1);
+    padding: 3em 3em;
 }
-
+/* Luxury Styles End */
 
 /* Primary Color Styles */
 
@@ -70,7 +81,7 @@ img {
 /* Neutral Color Styles */
 
 .transparent-white {
-    color: hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 95%, 1);
 }
 
 .very-light-gray {
@@ -90,6 +101,7 @@ img {
 .bigshoulders-700 {
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
+    font-size: 40px;
 }
 
 /* Font Styles End */
