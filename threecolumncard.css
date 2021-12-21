@@ -189,7 +189,7 @@ img {
 /* Media Queries */
 @media screen and (min-width: 800px) {
     .container {
-        margin-top: 10em;
+        margin-top: 10.5em;
         margin-bottom: 1em;
     }
 
