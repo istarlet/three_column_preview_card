@@ -23,7 +23,9 @@ img {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
+    margin-top: 10em;
 }
+
 
 .grid-container {
     display: grid;
@@ -39,7 +41,7 @@ img {
 /* Sedans Styles */
 .sedans__container {
     background-color: hsl(31, 77%, 52%); 
-    color: hsla(0, 0%, 95%, 1);
+    color: hsla(0, 0%, 100%, 1);
     padding: 3em 3em;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -49,7 +51,7 @@ img {
 /* SUVS Styles */
 .suvs__container {
     background-color: hsl(184, 100%, 22%);
-    color: hsla(0, 0%, 95%, 1);
+    color: hsla(0, 0%, 100%, 1);
     padding: 3em 3em;
 }
 /* SUVS Styles End */
@@ -57,12 +59,21 @@ img {
 /* Luxury Styles */
 .luxury__container {
     background-color:hsl(179, 100%, 13%);
-    color: hsla(0, 0%, 95%, 1);
+    color: hsla(0, 0%, 100%, 1);
     padding: 3em 3em;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 /* Luxury Styles End */
+
+/* Button Styles */
+
+.btn {
+    background-color: 
+}
+
+
+/* Button Styles End */
 
 /* Primary Color Styles */
 
@@ -118,6 +129,7 @@ img {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
 /* Frontend Mentor Starter Styles End */
 
 /* Media Queries */
@@ -130,11 +142,10 @@ img {
         border-top-right-radius: 0;
         border-bottom-left-radius: 10px;
     }
+
     .luxury__container {
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
         border-bottom-left-radius: 0;
-
-}
-
+    }
 }
