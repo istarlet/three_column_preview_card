@@ -36,6 +36,14 @@ img {
     text-transform: uppercase;
 }
 
+.visually-hidden {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
 /* Primary Color Styles */
 
 .bright-orange {
